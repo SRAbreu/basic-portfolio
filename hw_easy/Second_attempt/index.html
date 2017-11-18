@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>EA Building a Wireframe</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<!--Looks like I need a wrapper around my wireframe-->
+	<div class="clearfix" id="wrapper">
+ <!-- need to close this div at the end. This is the main parent div -->
+
+<!--Header section inside the wrapper-->
+		<div id="header"> <p>header</p>
+		</div> <!--I could also just type <header></header>?-->
+<!-- Nav section also inside the wrapper -->
+		<div id="nav"> <p>nav</p>
+		</div>
+<!--I had initially created a <div id="container">. Aparently I dont need a conatainer for "aside" & "section" if I can use float & clear correctly-->
+
+<!--Aside section. I dont really understand why I need another clearfix here??. i actually dont think i need it, but it worked this way, so i just left it there-->
+	   <div id="aside" class="clearfix"> <p>aside</p> </div>
+
+<!-- "Section" section w/ children -->
+	   <div id="section" class="clearfix"> <p>section</p>
+			 	<div id="article"> <p>article</p>
+					<div id="headlines"> <p>h1,h2,h3</p>
+					</div>
+					<div id="text"> <p>p</p>
+					</div>
+				</div>
+		 </div>
+
+<!-- Footer section -->
+		<footer class="clearfix"> <p>footer</p> </footer>
+
+	</div> <!--this div is closing the main parent div, the wrapper-->
+<!--After the class w/ Nathan I understood that it's better to use more classes than ids for my divs. By then I was already 75% done & dind't make more changes-->
+</body>
+</html>

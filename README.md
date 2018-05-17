@@ -1,3 +1,3 @@
 # basic-portfolio
 
-##My very first html test project! An attempt to create my portfolio from scratch.
+##My very first html test project! An attempt to create a portfolio from scratch. Seems like it was so long ago...
